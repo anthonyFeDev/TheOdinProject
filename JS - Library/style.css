@@ -1,11 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
+.container {
+    width: 100%;
 }
+
 .card {
-    width: 50%;
+    width: 300px;
 }
 
 .add-book {
+    width: 50%;
+}
+
+.textbox-new-book {
     width: 50%;
 }
