@@ -5,6 +5,15 @@ let myLibrary = [
     "Romeo and Juliet"
 ];
 
+// Create a new list item
+// const createListItem = (str) => {
+// let li = document.getElementById("li");
+// let text = document.createTextNode(str);
+// let listItem = li.appendChild(text);
+// 
+// return listItem;
+// };
+
 // Display books in a list
 const displayLibrary = () => {
     myLibrary.forEach((book) => {
@@ -27,7 +36,7 @@ const addBookToLibrary = () => {
     clearTextbox();
 };
 
-// Clear textbox after submission
+// Clear textbox after submitting new book
 const clearTextbox = () => {
     document.getElementById("new-book").value= "";
 };
