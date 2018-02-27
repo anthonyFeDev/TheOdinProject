@@ -24,4 +24,10 @@ const addBookToLibrary = () => {
     let text = document.createTextNode(newBook);
     li.appendChild(text);
     document.getElementById("book-list").appendChild(li);
+    clearTextbox();
+};
+
+// Clear textbox after submission
+const clearTextbox = () => {
+    document.getElementById("new-book").value= "";
 };
