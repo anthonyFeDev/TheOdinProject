@@ -23,7 +23,7 @@ const displayLibrary = () => {
         document.getElementById("book-list").appendChild(li);
     });
 
-}
+};
 
 // Add new book to list
 const addBookToLibrary = () => {
@@ -40,3 +40,4 @@ const addBookToLibrary = () => {
 const clearTextbox = () => {
     document.getElementById("new-book").value= "";
 };
+
