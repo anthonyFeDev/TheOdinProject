@@ -5,10 +5,11 @@ const gameOptions = [
     "Scissors"
 ];
 
-const playRound = (playerSelection, computerSelection) => {
-
+const playRound = () => {
+    playerSelection = document.getElementById("player-selection").value;
+    console.log(playerSelection);
 };
 
 const game = () => {
-    
+
 };
