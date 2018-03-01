@@ -1,8 +1,8 @@
 //Create an array of options
 const gameOptions = [
     "Rock",
-    // "Paper",
-    // "Scissors"
+    "Paper",
+    "Scissors"
 ];
 
 const getPlayerSelection = () => {
@@ -20,4 +20,8 @@ const getComputerSelection = () => {
 const playRound = () => {
     getPlayerSelection();
     getComputerSelection();
+};
+
+const results = () => {
+
 };
