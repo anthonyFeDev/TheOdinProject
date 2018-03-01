@@ -1,9 +1,3 @@
-//Create an array of options
-const gameOptions = [
-    "Rock",
-    "Paper",
-    "Scissors"
-];
 
 const getPlayerSelection = () => {
     // Get option player selected
@@ -12,6 +6,13 @@ const getPlayerSelection = () => {
 };
 
 const getComputerSelection = () => {
+    //Create an array of options
+    const gameOptions = [
+        "Rock",
+        "Paper",
+        "Scissors"
+    ];
+    
     // Computer selection - grab random item from gameOptions array
     let computerSelection = gameOptions[Math.floor(Math.random() * gameOptions.length)] 
     console.log(computerSelection);
