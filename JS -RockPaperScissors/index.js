@@ -19,5 +19,5 @@ const getComputerSelection = () => {
 const playRound = () => {
     getPlayerSelection();
     getComputerSelection();
-    console.log(getComputerSelection(), getPlayerSelection());  
+    //console.log(getComputerSelection(), getPlayerSelection());  
 };
