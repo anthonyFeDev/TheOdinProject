@@ -24,3 +24,7 @@
     padding-left: 20px;
 }
 
+#selection, 
+.show-selection {
+    display: inline;
+}
