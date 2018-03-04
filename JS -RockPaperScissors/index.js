@@ -2,7 +2,8 @@
 const getPlayerSelection = () => {
     // Get option player selected
     let playerSelection = document.getElementById("player-selection").value;
-
+    let showPlayerSelection = document.getElementById("selection").innerHTML = playerSelection;
+    
     return playerSelection;
 };
 
@@ -19,5 +20,6 @@ const getComputerSelection = () => {
 const playRound = () => {
     getPlayerSelection();
     getComputerSelection();
-    //console.log(getComputerSelection(), getPlayerSelection());  
+    //console.log(getComputerSelection(), getPlayerSelection());
+    
 };
