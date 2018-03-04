@@ -24,9 +24,15 @@
     padding-left: 20px;
 }
 
-.show-selection{
+.show-selection {
+    display: inline;
+    padding-left: 20px;
+}
+
+#selection {
     display: inline;
 }
-#selection {
+
+#comp-selection { 
     display: inline;
 }
