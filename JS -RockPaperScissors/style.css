@@ -2,11 +2,12 @@
     display: block;
     margin: 0 auto;
     border: solid black;
+    width: auto;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
 }
 
 .game-title {
@@ -24,16 +25,17 @@
     padding-left: 20px;
 }
 
-.show-selection {
-    display: inline;
-    padding-left: 20px;
+.show-selection { 
+    color: red;
 }
 
-
-#selection {
-    display: inline;
+.player-selection,
+.computer-selection {
+    padding-left: 20px; 
 }
 
-#comp-selection { 
+#selection, 
+#comp-selection {
     display: inline;
+    padding-left: 40px;
 }
