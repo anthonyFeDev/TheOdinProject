@@ -30,7 +30,8 @@
 }
 
 .player-selection,
-.computer-selection {
+.computer-selection,
+.result {
     padding-left: 20px; 
 }
 
