@@ -1,5 +1,7 @@
 
 let div = document.createElement("div");
-div.id = "grid-cell";
+// let text = document.createTextNode("this is a div");
+// div.appendChild(text);
 
-document.getElementByID("main").innerHTML(div);
+let element = document.getElementById("main");
+element.appendChild(div);
