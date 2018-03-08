@@ -4,8 +4,3 @@
     grid-auto-rows: minmax(50px,auto);
     
 }
-
-.grid-cell {
-    outline: solid 1px red;
-}
-

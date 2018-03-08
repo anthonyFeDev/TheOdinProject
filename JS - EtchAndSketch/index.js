@@ -4,7 +4,7 @@ let numberOfDivs = 16;
 
 for (let i = 0; i < numberOfDivs; i++) {
     let div = document.createElement("div");
-    div.className = "grid-cell";
+    div.className = "grid-cell" + i;
     let text = document.createTextNode("this is a div");
     div.appendChild(text);
 
