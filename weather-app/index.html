@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div>
+            <h3 class="title">Weather App</h3>
+        </div>
+        <div>
+            <div class="subtitle">
+                <h4>Powered with the OpenWeatherMap API</h4>
+            </div>
+        </div>
+        <!--Location Search-->
+        <div class="location-search">
+            <p>Search for location</p>
+            <input type="search" name="location" id="location" onkeypress="submitSearch(event)">
+        </div>
+        <div class="forecast-section">
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
