@@ -8,6 +8,7 @@ const getLocation = () => {
 const createUrl = () => {
     let urlString = "";
     let cityName = document.getElementById("location").value;
+    console.log(cityName);
 
     urlString = `https://api.openweathermap.org/data/2.5/weather?q=${{cityName}}&APPID=fb9557cd0f5476c1bd1150aa91426972`;
     // console.log(urlString);
@@ -31,8 +32,8 @@ fetch(createUrl(), {mode: 'cors'})
 .then((response) => {
     return response.json();
 })
-.then((weatherJson) => {
-    showResults(weatherJson);
+.then((response) => {
+    showResults(response);
 });
 
 //display results from API
