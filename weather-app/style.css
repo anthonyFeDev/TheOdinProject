@@ -1,27 +1,20 @@
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
 
-.location-search {
-    grid-column: 1;
-    grid-row: 2/4;    
-    background: gray;
+.mdl-card {
+    margin: 0 auto; 
+    margin-top: 10%;    
+}
+.mdl-card_title-text {
+    text-align: center; 
 }
 
-.location-search p {
-    margin-left: 20px;
-}
-
-#location {
-    height: 50px;
-    width: auto;
-    margin-left: 20px;
-}
-
-.forecast-section {
-    
+.mdl_card-location-subtitle {
+    text-align: left; 
+    margin: 5%;
 }
